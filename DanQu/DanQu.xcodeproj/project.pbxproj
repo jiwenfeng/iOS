@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBEC235523BA461300BE69D5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEC235423BA461300BE69D5 /* AppDelegate.m */; };
+		FBEC235823BA461300BE69D5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEC235723BA461300BE69D5 /* SceneDelegate.m */; };
+		FBEC235B23BA461300BE69D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEC235A23BA461300BE69D5 /* ViewController.m */; };
+		FBEC235E23BA461300BE69D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEC235C23BA461300BE69D5 /* Main.storyboard */; };
+		FBEC236123BA461300BE69D5 /* DanQu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FBEC235F23BA461300BE69D5 /* DanQu.xcdatamodeld */; };
+		FBEC236323BA461300BE69D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEC236223BA461300BE69D5 /* Assets.xcassets */; };
+		FBEC236623BA461300BE69D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEC236423BA461300BE69D5 /* LaunchScreen.storyboard */; };
+		FBEC236923BA461300BE69D5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEC236823BA461300BE69D5 /* main.m */; };
+		FBEC237323BA461400BE69D5 /* DanQuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEC237223BA461400BE69D5 /* DanQuTests.m */; };
+		FBEC237E23BA461400BE69D5 /* DanQuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEC237D23BA461400BE69D5 /* DanQuUITests.m */; };
+		FBEC239323BA505300BE69D5 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEC239223BA505300BE69D5 /* RegisterViewController.m */; };
+		FBEC239923BC53E800BE69D5 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEC239823BC53E800BE69D5 /* ExternalAccessory.framework */; };
+		FBEC239B23BC53F000BE69D5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEC239A23BC53F000BE69D5 /* Security.framework */; };
+		FBEC239D23BC53F800BE69D5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEC239C23BC53F800BE69D5 /* CFNetwork.framework */; };
+		FBEC239F23BC53FF00BE69D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBEC239E23BC53FF00BE69D5 /* UIKit.framework */; };
+		FBEC23A723BC577100BE69D5 /* login.m in Sources */ = {isa = PBXBuildFile; fileRef = FBEC23A523BC577100BE69D5 /* login.m */; };
+		FBEC23A923BC65CA00BE69D5 /* config.danqu in Resources */ = {isa = PBXBuildFile; fileRef = FBEC23A823BC65CA00BE69D5 /* config.danqu */; };
+		FBF13C4823C0253100AC1B24 /* SRPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF13C4723C0253100AC1B24 /* SRPClient.m */; };
+		FBF13C4B23C03E5600AC1B24 /* Net.m in Sources */ = {isa = PBXBuildFile; fileRef = FBF13C4A23C03E5600AC1B24 /* Net.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBEC236F23BA461400BE69D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBEC234823BA461300BE69D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBEC234F23BA461300BE69D5;
+			remoteInfo = DanQu;
+		};
+		FBEC237A23BA461400BE69D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBEC234823BA461300BE69D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBEC234F23BA461300BE69D5;
+			remoteInfo = DanQu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBEC235023BA461300BE69D5 /* DanQu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanQu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEC235323BA461300BE69D5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FBEC235423BA461300BE69D5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FBEC235623BA461300BE69D5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		FBEC235723BA461300BE69D5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		FBEC235923BA461300BE69D5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FBEC235A23BA461300BE69D5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FBEC235D23BA461300BE69D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBEC236023BA461300BE69D5 /* DanQu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DanQu.xcdatamodel; sourceTree = "<group>"; };
+		FBEC236223BA461300BE69D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBEC236523BA461300BE69D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBEC236723BA461300BE69D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEC236823BA461300BE69D5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FBEC236E23BA461400BE69D5 /* DanQuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanQuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEC237223BA461400BE69D5 /* DanQuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanQuTests.m; sourceTree = "<group>"; };
+		FBEC237423BA461400BE69D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEC237923BA461400BE69D5 /* DanQuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DanQuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEC237D23BA461400BE69D5 /* DanQuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanQuUITests.m; sourceTree = "<group>"; };
+		FBEC237F23BA461400BE69D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEC239123BA505300BE69D5 /* RegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		FBEC239223BA505300BE69D5 /* RegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		FBEC239823BC53E800BE69D5 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		FBEC239A23BC53F000BE69D5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FBEC239C23BC53F800BE69D5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FBEC239E23BC53FF00BE69D5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FBEC23A523BC577100BE69D5 /* login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = login.m; path = generated/login.m; sourceTree = "<group>"; };
+		FBEC23A623BC577100BE69D5 /* login.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = login.h; path = generated/login.h; sourceTree = "<group>"; };
+		FBEC23A823BC65CA00BE69D5 /* config.danqu */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.danqu; sourceTree = "<group>"; };
+		FBF13C4623C0253100AC1B24 /* SRPClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SRPClient.h; sourceTree = "<group>"; };
+		FBF13C4723C0253100AC1B24 /* SRPClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRPClient.m; sourceTree = "<group>"; };
+		FBF13C4923C03E5600AC1B24 /* Net.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Net.h; sourceTree = "<group>"; };
+		FBF13C4A23C03E5600AC1B24 /* Net.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Net.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBEC234D23BA461300BE69D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEC239F23BC53FF00BE69D5 /* UIKit.framework in Frameworks */,
+				FBEC239D23BC53F800BE69D5 /* CFNetwork.framework in Frameworks */,
+				FBEC239B23BC53F000BE69D5 /* Security.framework in Frameworks */,
+				FBEC239923BC53E800BE69D5 /* ExternalAccessory.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEC236B23BA461400BE69D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEC237623BA461400BE69D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBEC234723BA461300BE69D5 = {
+			isa = PBXGroup;
+			children = (
+				FBEC235223BA461300BE69D5 /* DanQu */,
+				FBEC237123BA461400BE69D5 /* DanQuTests */,
+				FBEC237C23BA461400BE69D5 /* DanQuUITests */,
+				FBEC235123BA461300BE69D5 /* Products */,
+				FBEC239723BC53E800BE69D5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FBEC235123BA461300BE69D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBEC235023BA461300BE69D5 /* DanQu.app */,
+				FBEC236E23BA461400BE69D5 /* DanQuTests.xctest */,
+				FBEC237923BA461400BE69D5 /* DanQuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBEC235223BA461300BE69D5 /* DanQu */ = {
+			isa = PBXGroup;
+			children = (
+				FBEC23A623BC577100BE69D5 /* login.h */,
+				FBEC23A523BC577100BE69D5 /* login.m */,
+				FBEC235323BA461300BE69D5 /* AppDelegate.h */,
+				FBEC235423BA461300BE69D5 /* AppDelegate.m */,
+				FBEC235623BA461300BE69D5 /* SceneDelegate.h */,
+				FBEC235723BA461300BE69D5 /* SceneDelegate.m */,
+				FBEC235923BA461300BE69D5 /* ViewController.h */,
+				FBEC235A23BA461300BE69D5 /* ViewController.m */,
+				FBEC235C23BA461300BE69D5 /* Main.storyboard */,
+				FBEC236223BA461300BE69D5 /* Assets.xcassets */,
+				FBEC236423BA461300BE69D5 /* LaunchScreen.storyboard */,
+				FBEC236723BA461300BE69D5 /* Info.plist */,
+				FBEC236823BA461300BE69D5 /* main.m */,
+				FBEC235F23BA461300BE69D5 /* DanQu.xcdatamodeld */,
+				FBEC239123BA505300BE69D5 /* RegisterViewController.h */,
+				FBEC239223BA505300BE69D5 /* RegisterViewController.m */,
+				FBEC23A823BC65CA00BE69D5 /* config.danqu */,
+				FBF13C4623C0253100AC1B24 /* SRPClient.h */,
+				FBF13C4723C0253100AC1B24 /* SRPClient.m */,
+				FBF13C4923C03E5600AC1B24 /* Net.h */,
+				FBF13C4A23C03E5600AC1B24 /* Net.m */,
+			);
+			path = DanQu;
+			sourceTree = "<group>";
+		};
+		FBEC237123BA461400BE69D5 /* DanQuTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBEC237223BA461400BE69D5 /* DanQuTests.m */,
+				FBEC237423BA461400BE69D5 /* Info.plist */,
+			);
+			path = DanQuTests;
+			sourceTree = "<group>";
+		};
+		FBEC237C23BA461400BE69D5 /* DanQuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FBEC237D23BA461400BE69D5 /* DanQuUITests.m */,
+				FBEC237F23BA461400BE69D5 /* Info.plist */,
+			);
+			path = DanQuUITests;
+			sourceTree = "<group>";
+		};
+		FBEC239723BC53E800BE69D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBEC239E23BC53FF00BE69D5 /* UIKit.framework */,
+				FBEC239C23BC53F800BE69D5 /* CFNetwork.framework */,
+				FBEC239A23BC53F000BE69D5 /* Security.framework */,
+				FBEC239823BC53E800BE69D5 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBEC234F23BA461300BE69D5 /* DanQu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEC238223BA461400BE69D5 /* Build configuration list for PBXNativeTarget "DanQu" */;
+			buildPhases = (
+				FBEC234C23BA461300BE69D5 /* Sources */,
+				FBEC234D23BA461300BE69D5 /* Frameworks */,
+				FBEC234E23BA461300BE69D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanQu;
+			productName = DanQu;
+			productReference = FBEC235023BA461300BE69D5 /* DanQu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBEC236D23BA461400BE69D5 /* DanQuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEC238523BA461400BE69D5 /* Build configuration list for PBXNativeTarget "DanQuTests" */;
+			buildPhases = (
+				FBEC236A23BA461400BE69D5 /* Sources */,
+				FBEC236B23BA461400BE69D5 /* Frameworks */,
+				FBEC236C23BA461400BE69D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBEC237023BA461400BE69D5 /* PBXTargetDependency */,
+			);
+			name = DanQuTests;
+			productName = DanQuTests;
+			productReference = FBEC236E23BA461400BE69D5 /* DanQuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FBEC237823BA461400BE69D5 /* DanQuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEC238823BA461400BE69D5 /* Build configuration list for PBXNativeTarget "DanQuUITests" */;
+			buildPhases = (
+				FBEC237523BA461400BE69D5 /* Sources */,
+				FBEC237623BA461400BE69D5 /* Frameworks */,
+				FBEC237723BA461400BE69D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBEC237B23BA461400BE69D5 /* PBXTargetDependency */,
+			);
+			name = DanQuUITests;
+			productName = DanQuUITests;
+			productReference = FBEC237923BA461400BE69D5 /* DanQuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBEC234823BA461300BE69D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "吉文峰";
+				TargetAttributes = {
+					FBEC234F23BA461300BE69D5 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					FBEC236D23BA461400BE69D5 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = FBEC234F23BA461300BE69D5;
+					};
+					FBEC237823BA461400BE69D5 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = FBEC234F23BA461300BE69D5;
+					};
+				};
+			};
+			buildConfigurationList = FBEC234B23BA461300BE69D5 /* Build configuration list for PBXProject "DanQu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBEC234723BA461300BE69D5;
+			productRefGroup = FBEC235123BA461300BE69D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBEC234F23BA461300BE69D5 /* DanQu */,
+				FBEC236D23BA461400BE69D5 /* DanQuTests */,
+				FBEC237823BA461400BE69D5 /* DanQuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBEC234E23BA461300BE69D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEC236623BA461300BE69D5 /* LaunchScreen.storyboard in Resources */,
+				FBEC23A923BC65CA00BE69D5 /* config.danqu in Resources */,
+				FBEC236323BA461300BE69D5 /* Assets.xcassets in Resources */,
+				FBEC235E23BA461300BE69D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEC236C23BA461400BE69D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEC237723BA461400BE69D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBEC234C23BA461300BE69D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBF13C4B23C03E5600AC1B24 /* Net.m in Sources */,
+				FBEC236923BA461300BE69D5 /* main.m in Sources */,
+				FBEC239323BA505300BE69D5 /* RegisterViewController.m in Sources */,
+				FBF13C4823C0253100AC1B24 /* SRPClient.m in Sources */,
+				FBEC23A723BC577100BE69D5 /* login.m in Sources */,
+				FBEC235B23BA461300BE69D5 /* ViewController.m in Sources */,
+				FBEC235523BA461300BE69D5 /* AppDelegate.m in Sources */,
+				FBEC235823BA461300BE69D5 /* SceneDelegate.m in Sources */,
+				FBEC236123BA461300BE69D5 /* DanQu.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEC236A23BA461400BE69D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEC237323BA461400BE69D5 /* DanQuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBEC237523BA461400BE69D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEC237E23BA461400BE69D5 /* DanQuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBEC237023BA461400BE69D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBEC234F23BA461300BE69D5 /* DanQu */;
+			targetProxy = FBEC236F23BA461400BE69D5 /* PBXContainerItemProxy */;
+		};
+		FBEC237B23BA461400BE69D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBEC234F23BA461300BE69D5 /* DanQu */;
+			targetProxy = FBEC237A23BA461400BE69D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBEC235C23BA461300BE69D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBEC235D23BA461300BE69D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBEC236423BA461300BE69D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBEC236523BA461300BE69D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBEC238023BA461400BE69D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-lIce",
+					"-lIceSSL",
+					"-lIceDiscovery",
+					"-lIceIAP",
+					"-lIceObjc",
+					"-lc++",
+					"-liconv",
+					"-lbz2",
+					"-lssl",
+					"-lcrypto",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FBEC238123BA461400BE69D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"-Objc",
+					"-lIce",
+					"-lIceSSL",
+					"-lIceDiscovery",
+					"-lIceIAP",
+					"-lIceObjc",
+					"-lc++",
+					"-liconv",
+					"-lbz2",
+					"-lssl",
+					"-lcrypto",
+					"-all_load",
+				);
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBEC238323BA461400BE69D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRM2H7LG9X;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/opt/ice/sdk/$(PLATFORM_NAME).sdk/usr/include",
+					"/Users/wenfeng/source/OpenSSL-for-iPhone/include",
+					DanQu/generated,
+				);
+				INFOPLIST_FILE = DanQu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/wenfeng/source/OpenSSL-for-iPhone/lib",
+					"/usr/local/opt/ice/sdk/$(PLATFORM_NAME).sdk/usr/lib",
+				);
+				OTHER_CFLAGS = "-fobjc-arc-exceptions";
+				PRODUCT_BUNDLE_IDENTIFIER = jwf.DanQu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBEC238423BA461400BE69D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRM2H7LG9X;
+				HEADER_SEARCH_PATHS = (
+					"/usr/local/opt/ice/sdk/$(PLATFORM_NAME).sdk/usr/include",
+					"/Users/wenfeng/source/OpenSSL-for-iPhone/include",
+					DanQu/generated,
+				);
+				INFOPLIST_FILE = DanQu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/wenfeng/source/OpenSSL-for-iPhone/lib",
+					"/usr/local/opt/ice/sdk/$(PLATFORM_NAME).sdk/usr/lib",
+				);
+				OTHER_CFLAGS = "-fobjc-arc-exceptions";
+				PRODUCT_BUNDLE_IDENTIFIER = jwf.DanQu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FBEC238623BA461400BE69D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRM2H7LG9X;
+				INFOPLIST_FILE = DanQuTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jwf.DanQuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanQu.app/DanQu";
+			};
+			name = Debug;
+		};
+		FBEC238723BA461400BE69D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRM2H7LG9X;
+				INFOPLIST_FILE = DanQuTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jwf.DanQuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DanQu.app/DanQu";
+			};
+			name = Release;
+		};
+		FBEC238923BA461400BE69D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRM2H7LG9X;
+				INFOPLIST_FILE = DanQuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jwf.DanQuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DanQu;
+			};
+			name = Debug;
+		};
+		FBEC238A23BA461400BE69D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XRM2H7LG9X;
+				INFOPLIST_FILE = DanQuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jwf.DanQuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DanQu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBEC234B23BA461300BE69D5 /* Build configuration list for PBXProject "DanQu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEC238023BA461400BE69D5 /* Debug */,
+				FBEC238123BA461400BE69D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEC238223BA461400BE69D5 /* Build configuration list for PBXNativeTarget "DanQu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEC238323BA461400BE69D5 /* Debug */,
+				FBEC238423BA461400BE69D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEC238523BA461400BE69D5 /* Build configuration list for PBXNativeTarget "DanQuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEC238623BA461400BE69D5 /* Debug */,
+				FBEC238723BA461400BE69D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEC238823BA461400BE69D5 /* Build configuration list for PBXNativeTarget "DanQuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEC238923BA461400BE69D5 /* Debug */,
+				FBEC238A23BA461400BE69D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FBEC235F23BA461300BE69D5 /* DanQu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FBEC236023BA461300BE69D5 /* DanQu.xcdatamodel */,
+			);
+			currentVersion = FBEC236023BA461300BE69D5 /* DanQu.xcdatamodel */;
+			path = DanQu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FBEC234823BA461300BE69D5 /* Project object */;
+}
