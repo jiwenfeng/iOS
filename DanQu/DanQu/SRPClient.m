@@ -159,7 +159,9 @@ BIGNUM *m_rd = nil;
     }
     BIGNUM *s;
     
-    if (!BN_hex2bn(&s, [salt cStringUsingEncoding:NSASCIIStringEncoding]))
+    const char *strSalt = [salt cStringUsingEncoding:NSASCIIStringEncoding];
+    
+    if (!BN_hex2bn(&s, strSalt))
     {
         return nil;
     }
